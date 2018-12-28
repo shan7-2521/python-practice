@@ -1,0 +1,8 @@
+print('plese input following information')
+name=input('name:')
+age=input('age:')
+sex=input('sex:')
+adress=input('adress:')
+tel=input('Telphone:')
+box=input('what u want ?:')
+print('Hello!',name,'a',sex,'who came from',adress,',when we get ready to give you a',box,'call your phone number:',tel)
