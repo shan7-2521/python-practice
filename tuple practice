@@ -1,0 +1,15 @@
+ author:dashan 
+# coding practice
+#tuple practice
+t=('A','B',['D','F' ])#中括号部分是list数据集，加入list后tuple变成多维度集合，其中元素数量和元素类型不改变，但是list集任然保留数据集的相关性质，其中元素可以修改
+t[2][0]=1
+t[2][1]=2
+print(t)
+L=[
+    ['wws','xrz','cyf'],#在括号内换行要添加逗号进行分割，否则出现tuple类型的错误
+    ['gxb','gxf','wl'],
+    ['zzw','pjx','ljy']
+]
+print(L[0][0])
+print(L[1][1])
+print(L[2][2])
