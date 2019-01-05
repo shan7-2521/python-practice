@@ -1,0 +1,20 @@
+# author:dashan 
+# coding practice
+#BMI小程序
+name=input('please input your name:')
+print('hello,',name,'welcome to test your BMI,\nMaybe this program can give you a different answer! \nNow,follow me to complete the test!')
+hight=int(input('please input your hight(cm):'))
+weight=int(input('please input your weight(kg):'))
+weight=weight*10000
+BMI=int(weight/(hight*hight))
+print('BMI=',BMI)
+if BMI<=18.5:
+    print('Too thin,',name,'you should increase your weight')
+elif BMI<=25:
+    print('Nonmal,',name,'please keep it!')
+elif BMI<=28:
+    print('Too heavy,but ok')
+elif BMI<=32:
+    print('Obesity',name,'you should lose your weight!')
+else:
+    print('Severe obesity,',name,'it\'s harmful for your health,lose your weight now!')
